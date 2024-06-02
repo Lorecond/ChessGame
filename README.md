@@ -5,3 +5,5 @@ Gioco di scacchi
 - En passant
 - Scacco
 - Scacco matto
+
+  Per scaricare il gioco : https://lorecond.itch.io/chess-game
