@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine\GameLoop">
+      <UniqueIdentifier>{3173ddb8-e24c-4908-a85f-72eb9bfdcd71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets">
+      <UniqueIdentifier>{2403d272-d1b5-40ef-a15a-a25b1920a702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Sounds">
+      <UniqueIdentifier>{6a12634f-25ce-4fa8-9538-ba6225e14b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Assets\Sprites">
+      <UniqueIdentifier>{5e3051f7-117d-411b-a2ce-ed4bf0f80190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Menu">
+      <UniqueIdentifier>{1b6a591a-a896-4239-b6ef-c5f9e05ee5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Menu\Button">
+      <UniqueIdentifier>{cec59bd3-404a-40d2-9193-f184d76196eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Menu\MainMenu">
+      <UniqueIdentifier>{245fb8c5-e745-441f-8d92-61a57f65573b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GameFunctions\ChessboardElements">
+      <UniqueIdentifier>{2498298b-0bd5-4cca-88aa-696b09d5fc12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\ChessboardElements\Pieces">
+      <UniqueIdentifier>{41a8f669-20d4-43b8-97d2-c9d9fe837c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\ChessboardElements\Pieces\Piece">
+      <UniqueIdentifier>{b13f0084-034b-495a-a2b5-5bd4675d6dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\ChessboardElements\Pieces\Pawn">
+      <UniqueIdentifier>{dd9f1d0f-45d4-4bd6-8a75-563a7b8c2d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\ChessboardElements\Chessboard">
+      <UniqueIdentifier>{a977f33b-1bde-4ec2-b643-04750eb17517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\ChessboardElements\Pieces\Rook">
+      <UniqueIdentifier>{197b4fde-1c9e-44b3-9838-7edd516e800d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\ChessboardElements\Pieces\Knight">
+      <UniqueIdentifier>{b8887d33-d76e-476c-b881-045988aa2c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\ChessboardElements\Pieces\Bishop">
+      <UniqueIdentifier>{2acbe884-1f9c-4cfd-b556-4744b669d710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\ChessboardElements\Pieces\Queen">
+      <UniqueIdentifier>{9013f138-58ef-4c21-977f-af735af07254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\ChessboardElements\Pieces\King">
+      <UniqueIdentifier>{3427e858-c9a1-48d7-956b-4bea79a3cf9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\GameModes">
+      <UniqueIdentifier>{40832a90-9a7d-4603-b42f-fcd0ed8272be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\GameModes\GameMode">
+      <UniqueIdentifier>{401b1b18-30da-4f43-bc34-95c8838b529b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFunctions\GameModes\OfflineMode">
+      <UniqueIdentifier>{e52f9de9-fcc3-4f44-98a7-f2fcc2e6eba4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Engine\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Engine\Assets\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Engine\Assets\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMode.cpp">
+      <Filter>GameFunctions\GameModes\GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="OfflineMode.cpp">
+      <Filter>GameFunctions\GameModes\OfflineMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Engine\Menu\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Engine\Menu\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="Chessboard.cpp">
+      <Filter>GameFunctions\ChessboardElements\Chessboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Rook.cpp">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Rook</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Bishop</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Queen</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>GameFunctions\ChessboardElements\Pieces\King</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Engine\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Engine\Assets\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Engine\Assets\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>GameFunctions\GameModes\GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="OfflineMode.h">
+      <Filter>GameFunctions\GameModes\OfflineMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Engine\Menu\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Engine\Menu\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Chessboard.h">
+      <Filter>GameFunctions\ChessboardElements\Chessboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Rook</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Bishop</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>GameFunctions\ChessboardElements\Pieces\Queen</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>GameFunctions\ChessboardElements\Pieces\King</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
